@@ -122,6 +122,40 @@ img{
     color: rgba(0, 0, 0, 0.5);
 }
 
+/* input section style */
+.input-section{
+    display: flex;
+    max-width: 1140px;
+    margin: 50px auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(237, 240, 248);
+}
+.inputs{
+    border-radius: 4px;
+    border-color: white;
+}
+
+.input-title{
+    font-size: 80px;
+}
+
+.label-name{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.sumbit-btn{
+    background-color: #4E47FF;
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 40px;
+    border: none;
+}
+
 /* footer style */
 footer{
     max-width: 531px;
@@ -134,6 +168,7 @@ footer{
 .footer-logo{
     color: #4E47FF;
     font-size: 80px;
+    font-weight: bolder;
 }
 .footer-description{
     color: rgba(137, 135, 161, 1);
