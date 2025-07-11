@@ -164,12 +164,15 @@ img{
 .card{
     max-width: 350px;
     background-color: white;
+    padding: 10px;
     /* justify-content: space-evenly; */
 }
 
 .review-person{
     display: flex;
     align-items: center;
+    gap: 10px;
+    line-height: 0.4px;
 }
 
 /* input section style */
