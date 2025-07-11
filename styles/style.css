@@ -137,6 +137,41 @@ img{
     color: rgba(0, 0, 0, 0.5);
 }
 
+/* review section style */
+
+.review-section{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(237, 240, 248);
+    padding: 20px;
+    border-radius: 24px;
+}
+
+.review-section-tile{
+    font-size: 32px;
+}
+
+.card-container{
+    display: flex;
+    max-width: 1140px;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: left;
+    
+}
+
+.card{
+    max-width: 350px;
+    background-color: white;
+    /* justify-content: space-evenly; */
+}
+
+.review-person{
+    display: flex;
+    align-items: center;
+}
+
 /* input section style */
 .input-section{
     display: flex;
