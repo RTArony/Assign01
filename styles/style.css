@@ -121,3 +121,36 @@ img{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
 }
+
+/* footer style */
+footer{
+    max-width: 531px;
+    text-align: center;
+    margin: 0 auto;
+    /* line-height: 2px; */
+    padding: 30px;
+}
+
+.footer-logo{
+    color: #4E47FF;
+    font-size: 80px;
+}
+.footer-description{
+    color: rgba(137, 135, 161, 1);
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+} 
+
+footer a{
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+}
+
+footer li:hover{
+    background-color: rgb(188, 181, 181);
+}
+
